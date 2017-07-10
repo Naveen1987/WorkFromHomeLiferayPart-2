@@ -1,5 +1,4 @@
-package com.daffo.DataMigrationApp.portlet;
-
+package com.daffo.DataMigrationUtility.portlet;
 import java.util.List;
 
 import com.liferay.document.library.kernel.model.DLFolder;
@@ -16,7 +15,7 @@ import com.liferay.dynamic.data.mapping.storage.Fields;
 import com.liferay.portal.kernel.repository.model.Folder;
 import com.liferay.portal.kernel.theme.ThemeDisplay;
 
-public class FileUpload_Service {
+public class FolderAndDocType_Service {
 	//List of all Folder in liferay server
 	public List<DLFolder> getAllDLFolder() 
 	{
